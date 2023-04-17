@@ -1,0 +1,10 @@
+seqNumber,request,obj,ref
+1,Park,Motorcycle
+2,Wait,210 min
+3,Unpark,Motorcycle,1
+4,Park,Car
+5,Wait,361 min
+6,Unpark,Car,4
+7,Park,Truck
+8,Wait,119 min
+9,Unpark,Truck,7

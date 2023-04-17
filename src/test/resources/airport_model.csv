@@ -1,0 +1,8 @@
+Vehicle,min_hour,max_hour,Fee
+Motorcycle/Scooter,0,1,0
+Motorcycle/Scooter,1,8,40
+Motorcycle/Scooter,8,24,60
+Motorcycle/Scooter,24,-1,80
+Car/SUV,0,12,60
+Car/SUV,12,24,80
+Car/SUV,24,-1,100

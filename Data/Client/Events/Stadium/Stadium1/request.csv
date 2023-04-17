@@ -1,0 +1,16 @@
+seqNumber,request,obj,ref
+1,Park,Motorcycle
+2,Wait,220 min
+3,Unpark,Motorcycle,1
+4,Park,Motorcycle
+5,Wait,14 hour
+6,Wait,59 min
+7,Unpark,Motorcycle,4
+8,Park,SUV
+9,Wait,11 hour
+10,Wait,30 min
+11,Unpark,SUV,8
+12,Park,SUV
+13,Wait,13 hour
+14,Wait,5 min
+15,Unpark,SUV,12

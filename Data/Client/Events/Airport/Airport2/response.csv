@@ -1,0 +1,31 @@
+Request file = D:\deliveroo\code\ParkingLot\Data\Client\Events\Airport\Airport2\request.csv
+Response file = D:\deliveroo\code\ParkingLot\Data\Client\Events\Airport\Airport2\response.csv
+
+Serial number : 1
+Request       : {"serialNumber":1,"requestType":"Park","object":"Motorcycle","reference":-1}
+Response      : {"message":"Sorry, parking not available. All slots are occupied.","isValidTicket":false}
+
+Serial number : 2
+Request       : {"serialNumber":2,"requestType":"Wait","object":"3 hour","reference":-1}
+Response      : {"reponseString":"Increased time by 3 hour"}
+
+Serial number : 3
+Request       : {"serialNumber":3,"requestType":"Park","object":"Motorcycle","reference":-1}
+Response      : {"message":"Sorry, parking not available. All slots are occupied.","isValidTicket":false}
+
+Serial number : 4
+Request       : {"serialNumber":4,"requestType":"Park","object":"Motorcycle","reference":-1}
+Response      : {"message":"Sorry, parking not available. All slots are occupied.","isValidTicket":false}
+
+Serial number : 5
+Request       : {"serialNumber":5,"requestType":"Unpark","object":"Motorcycle","reference":1}
+Response      : {"recieptNumber":0,"message":"Sorry, Can not issue receipt. Reason : Presented ticket is invalid. ticket \u003d\u003e {\"message\":\"Sorry, parking not available. All slots are occupied.\",\"isValidTicket\":false}"}
+
+Serial number : 6
+Request       : {"serialNumber":6,"requestType":"Wait","object":"2 day","reference":-1}
+Response      : {"reponseString":"Increased time by 2 day"}
+
+Serial number : 7
+Request       : {"serialNumber":7,"requestType":"Unpark","object":"Motorcycle","reference":3}
+Response      : {"recieptNumber":0,"message":"Sorry, Can not issue receipt. Reason : Presented ticket is invalid. ticket \u003d\u003e {\"message\":\"Sorry, parking not available. All slots are occupied.\",\"isValidTicket\":false}"}
+

@@ -1,0 +1,91 @@
+Request file = D:\deliveroo\code\ParkingLot\Data\Client\Events\Airport\Airport1\request.csv
+Response file = D:\deliveroo\code\ParkingLot\Data\Client\Events\Airport\Airport1\response.csv
+
+Serial number : 1
+Request       : {"serialNumber":1,"requestType":"Park","object":"Motorcycle","reference":-1}
+Response      : {"message":"Have a great day !!!!","isValidTicket":true,"ticketNumber":1,"slot":{"id":1},"startTime":"2023-04-20 00:05:10 am","parkingName":{"placeName":"Airport1"},"vehicleType":"Motorcycle"}
+
+Serial number : 2
+Request       : {"serialNumber":2,"requestType":"Wait","object":"55 min","reference":-1}
+Response      : {"reponseString":"Increased time by 55 min"}
+
+Serial number : 3
+Request       : {"serialNumber":3,"requestType":"Unpark","object":"Motorcycle","reference":1}
+Response      : {"recieptNumber":1,"startTime":"2023-04-20 00:05:10 am","endTime":"2023-04-20 01:00:10 am","totalHours":0,"fees":0,"parkingName":{"placeName":"Airport1"}}
+
+Serial number : 4
+Request       : {"serialNumber":4,"requestType":"Park","object":"Motorcycle","reference":-1}
+Response      : {"message":"Have a great day !!!!","isValidTicket":true,"ticketNumber":2,"slot":{"id":2},"startTime":"2023-04-20 01:00:10 am","parkingName":{"placeName":"Airport1"},"vehicleType":"Motorcycle"}
+
+Serial number : 5
+Request       : {"serialNumber":5,"requestType":"Wait","object":"14 hour","reference":-1}
+Response      : {"reponseString":"Increased time by 14 hour"}
+
+Serial number : 6
+Request       : {"serialNumber":6,"requestType":"Wait","object":"59 min","reference":-1}
+Response      : {"reponseString":"Increased time by 59 min"}
+
+Serial number : 7
+Request       : {"serialNumber":7,"requestType":"Unpark","object":"Motorcycle","reference":4}
+Response      : {"recieptNumber":2,"startTime":"2023-04-20 01:00:10 am","endTime":"2023-04-20 15:59:10 pm","totalHours":14,"fees":60,"parkingName":{"placeName":"Airport1"}}
+
+Serial number : 8
+Request       : {"serialNumber":8,"requestType":"Park","object":"Motorcycle","reference":-1}
+Response      : {"message":"Have a great day !!!!","isValidTicket":true,"ticketNumber":3,"slot":{"id":3},"startTime":"2023-04-20 15:59:10 pm","parkingName":{"placeName":"Airport1"},"vehicleType":"Motorcycle"}
+
+Serial number : 9
+Request       : {"serialNumber":9,"requestType":"Wait","object":"1 day","reference":-1}
+Response      : {"reponseString":"Increased time by 1 day"}
+
+Serial number : 10
+Request       : {"serialNumber":10,"requestType":"Wait","object":"12 hour","reference":-1}
+Response      : {"reponseString":"Increased time by 12 hour"}
+
+Serial number : 11
+Request       : {"serialNumber":11,"requestType":"Unpark","object":"Motorcycle","reference":8}
+Response      : {"recieptNumber":3,"startTime":"2023-04-20 15:59:10 pm","endTime":"2023-04-22 03:59:10 am","totalHours":36,"fees":80,"parkingName":{"placeName":"Airport1"}}
+
+Serial number : 12
+Request       : {"serialNumber":12,"requestType":"Park","object":"Car","reference":-1}
+Response      : {"message":"Have a great day !!!!","isValidTicket":true,"ticketNumber":4,"slot":{"id":1},"startTime":"2023-04-22 03:59:10 am","parkingName":{"placeName":"Airport1"},"vehicleType":"Car"}
+
+Serial number : 13
+Request       : {"serialNumber":13,"requestType":"Wait","object":"50 min","reference":-1}
+Response      : {"reponseString":"Increased time by 50 min"}
+
+Serial number : 14
+Request       : {"serialNumber":14,"requestType":"Unpark","object":"Car","reference":12}
+Response      : {"recieptNumber":4,"startTime":"2023-04-22 03:59:10 am","endTime":"2023-04-22 04:49:10 am","totalHours":0,"fees":60,"parkingName":{"placeName":"Airport1"}}
+
+Serial number : 15
+Request       : {"serialNumber":15,"requestType":"Park","object":"SUV","reference":-1}
+Response      : {"message":"Have a great day !!!!","isValidTicket":true,"ticketNumber":5,"slot":{"id":2},"startTime":"2023-04-22 04:49:10 am","parkingName":{"placeName":"Airport1"},"vehicleType":"SUV"}
+
+Serial number : 16
+Request       : {"serialNumber":16,"requestType":"Wait","object":"23 hour","reference":-1}
+Response      : {"reponseString":"Increased time by 23 hour"}
+
+Serial number : 17
+Request       : {"serialNumber":17,"requestType":"Wait","object":"59 min","reference":-1}
+Response      : {"reponseString":"Increased time by 59 min"}
+
+Serial number : 18
+Request       : {"serialNumber":18,"requestType":"Unpark","object":"SUV","reference":15}
+Response      : {"recieptNumber":5,"startTime":"2023-04-22 04:49:10 am","endTime":"2023-04-23 04:48:10 am","totalHours":23,"fees":80,"parkingName":{"placeName":"Airport1"}}
+
+Serial number : 19
+Request       : {"serialNumber":19,"requestType":"Park","object":"Car","reference":-1}
+Response      : {"message":"Have a great day !!!!","isValidTicket":true,"ticketNumber":6,"slot":{"id":3},"startTime":"2023-04-23 04:48:10 am","parkingName":{"placeName":"Airport1"},"vehicleType":"Car"}
+
+Serial number : 20
+Request       : {"serialNumber":20,"requestType":"Wait","object":"3 day","reference":-1}
+Response      : {"reponseString":"Increased time by 3 day"}
+
+Serial number : 21
+Request       : {"serialNumber":21,"requestType":"Wait","object":"1 hour","reference":-1}
+Response      : {"reponseString":"Increased time by 1 hour"}
+
+Serial number : 22
+Request       : {"serialNumber":22,"requestType":"Unpark","object":"Car","reference":19}
+Response      : {"recieptNumber":6,"startTime":"2023-04-23 04:48:10 am","endTime":"2023-04-26 05:48:10 am","totalHours":73,"fees":300,"parkingName":{"placeName":"Airport1"}}
+
