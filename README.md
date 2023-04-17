@@ -1,7 +1,7 @@
-<h1 align="center"> Project Title </h1> <br>
+<h1 align="center"> Parking Allocator </h1> <br>
 
 <p align="center">
-  Sample microservice description.
+  This is a code for parking lot allocation and parking fees for different parking places.
 </p>
 
 
