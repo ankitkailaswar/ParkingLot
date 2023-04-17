@@ -1,9 +1,9 @@
-Request file = D:\deliveroo\code\ParkingLot\Data\Client\Events\Stadium\Stadium1\request.csv
-Response file = D:\deliveroo\code\ParkingLot\Data\Client\Events\Stadium\Stadium1\response.csv
+Request file = D:\preparation\assignments\2023\sahaj\ParkingLot\Data\Client\Events\Stadium\Stadium1\request.csv
+Response file = D:\preparation\assignments\2023\sahaj\ParkingLot\Data\Client\Events\Stadium\Stadium1\response.csv
 
 Serial number : 1
 Request       : {"serialNumber":1,"requestType":"Park","object":"Motorcycle","reference":-1}
-Response      : {"message":"Have a great day !!!!","isValidTicket":true,"ticketNumber":1,"slot":{"id":1},"startTime":"2023-04-18 04:51:10 am","parkingName":{"placeName":"Stadium1"},"vehicleType":"Motorcycle"}
+Response      : {"message":"Have a great day !!!!","isValidTicket":true,"ticketNumber":1,"slot":{"id":1},"startTime":"2023-04-18 08:42:26 am","parkingName":{"placeName":"Stadium1"},"vehicleType":"Motorcycle"}
 
 Serial number : 2
 Request       : {"serialNumber":2,"requestType":"Wait","object":"220 min","reference":-1}
@@ -11,11 +11,11 @@ Response      : {"reponseString":"Increased time by 220 min"}
 
 Serial number : 3
 Request       : {"serialNumber":3,"requestType":"Unpark","object":"Motorcycle","reference":1}
-Response      : {"recieptNumber":1,"startTime":"2023-04-18 04:51:10 am","endTime":"2023-04-18 08:31:10 am","totalHours":4,"fees":30,"parkingName":{"placeName":"Stadium1"}}
+Response      : {"recieptNumber":1,"startTime":"2023-04-18 08:42:26 am","endTime":"2023-04-18 12:22:26 pm","totalHours":4,"fees":30,"parkingName":{"placeName":"Stadium1"}}
 
 Serial number : 4
 Request       : {"serialNumber":4,"requestType":"Park","object":"Motorcycle","reference":-1}
-Response      : {"message":"Have a great day !!!!","isValidTicket":true,"ticketNumber":2,"slot":{"id":2},"startTime":"2023-04-18 08:31:10 am","parkingName":{"placeName":"Stadium1"},"vehicleType":"Motorcycle"}
+Response      : {"message":"Have a great day !!!!","isValidTicket":true,"ticketNumber":2,"slot":{"id":2},"startTime":"2023-04-18 12:22:26 pm","parkingName":{"placeName":"Stadium1"},"vehicleType":"Motorcycle"}
 
 Serial number : 5
 Request       : {"serialNumber":5,"requestType":"Wait","object":"14 hour","reference":-1}
@@ -27,11 +27,11 @@ Response      : {"reponseString":"Increased time by 59 min"}
 
 Serial number : 7
 Request       : {"serialNumber":7,"requestType":"Unpark","object":"Motorcycle","reference":4}
-Response      : {"recieptNumber":2,"startTime":"2023-04-18 08:31:10 am","endTime":"2023-04-18 23:30:10 pm","totalHours":15,"fees":390,"parkingName":{"placeName":"Stadium1"}}
+Response      : {"recieptNumber":2,"startTime":"2023-04-18 12:22:26 pm","endTime":"2023-04-19 03:21:26 am","totalHours":15,"fees":390,"parkingName":{"placeName":"Stadium1"}}
 
 Serial number : 8
 Request       : {"serialNumber":8,"requestType":"Park","object":"SUV","reference":-1}
-Response      : {"message":"Have a great day !!!!","isValidTicket":true,"ticketNumber":3,"slot":{"id":1},"startTime":"2023-04-18 23:30:10 pm","parkingName":{"placeName":"Stadium1"},"vehicleType":"SUV"}
+Response      : {"message":"Have a great day !!!!","isValidTicket":true,"ticketNumber":3,"slot":{"id":1},"startTime":"2023-04-19 03:21:26 am","parkingName":{"placeName":"Stadium1"},"vehicleType":"SUV"}
 
 Serial number : 9
 Request       : {"serialNumber":9,"requestType":"Wait","object":"11 hour","reference":-1}
@@ -43,11 +43,11 @@ Response      : {"reponseString":"Increased time by 30 min"}
 
 Serial number : 11
 Request       : {"serialNumber":11,"requestType":"Unpark","object":"SUV","reference":8}
-Response      : {"recieptNumber":3,"startTime":"2023-04-18 23:30:10 pm","endTime":"2023-04-19 11:00:10 am","totalHours":12,"fees":180,"parkingName":{"placeName":"Stadium1"}}
+Response      : {"recieptNumber":3,"startTime":"2023-04-19 03:21:26 am","endTime":"2023-04-19 14:51:26 pm","totalHours":12,"fees":180,"parkingName":{"placeName":"Stadium1"}}
 
 Serial number : 12
 Request       : {"serialNumber":12,"requestType":"Park","object":"SUV","reference":-1}
-Response      : {"message":"Have a great day !!!!","isValidTicket":true,"ticketNumber":4,"slot":{"id":2},"startTime":"2023-04-19 11:00:10 am","parkingName":{"placeName":"Stadium1"},"vehicleType":"SUV"}
+Response      : {"message":"Have a great day !!!!","isValidTicket":true,"ticketNumber":4,"slot":{"id":2},"startTime":"2023-04-19 14:51:26 pm","parkingName":{"placeName":"Stadium1"},"vehicleType":"SUV"}
 
 Serial number : 13
 Request       : {"serialNumber":13,"requestType":"Wait","object":"13 hour","reference":-1}
@@ -59,5 +59,5 @@ Response      : {"reponseString":"Increased time by 5 min"}
 
 Serial number : 15
 Request       : {"serialNumber":15,"requestType":"Unpark","object":"SUV","reference":12}
-Response      : {"recieptNumber":4,"startTime":"2023-04-19 11:00:10 am","endTime":"2023-04-20 00:05:10 am","totalHours":14,"fees":580,"parkingName":{"placeName":"Stadium1"}}
+Response      : {"recieptNumber":4,"startTime":"2023-04-19 14:51:26 pm","endTime":"2023-04-20 03:56:26 am","totalHours":14,"fees":580,"parkingName":{"placeName":"Stadium1"}}
 
