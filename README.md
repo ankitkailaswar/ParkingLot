@@ -13,8 +13,8 @@
 - [Code Structure](#Code)
 - [Requirements](#Requirements)
 - [Local](#Local)
-- [How to run](#How to run)
-- [Single Scenario flow](#Single Scenario flow)
+- [How to run](#How)
+- [Single Scenario flow](#Single)
 - [Testing](#Testing)
 
 ## Introduction
