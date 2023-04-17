@@ -7,7 +7,7 @@
 
 ## Table of Contents
 
-- [Introduction](#Introduction)
+- [Introduction1](#Introduction)
 - [Features](#Features)
 - [Architecture](#Architecture)
 - [Code Structure](#Code Structure)
