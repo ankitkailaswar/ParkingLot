@@ -7,10 +7,10 @@
 
 ## Table of Contents
 
-- [Introduction1](#Introduction)
+- [Introduction](#Introduction)
 - [Features](#Features)
 - [Architecture](#Architecture)
-- [Code Structure](#Code Structure)
+- [Code Structure](#Code)
 - [Requirements](#Requirements)
 - [Local](#Local)
 - [How to run](#How to run)
