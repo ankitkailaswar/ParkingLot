@@ -16,6 +16,7 @@
 - [How to run](#How)
 - [Single Scenario flow](#Single)
 - [Testing](#Testing)
+- [Building a jar](#Build)
 
 ## Introduction
 
@@ -49,7 +50,7 @@ Execute following steps to perform one scenario,
 1. copy/change model.csv for given model type (e.g. Data/Server/Models/Airport/model.csv). Dont change structure.
 2. copy/change spots.csv for given parking place. add all avaialble parking spots for different veciele type. (e.g. Data/Server/ParkingPlaces/Airport/Airport1/spots.csv)
 3. copy/change request.csv file to generate parking related events. (e.g. Data/Client/Events/Airport/Airport1/request.csv)
-4. Run jar, command => 
+4. Run jar(make sure jar and Data dir are present in same directory), command =>  java -cp ParkingLot-1.0-SNAPSHOT-jar-with-dependencies.jar org.sahaj.parking.Main
 5. On successful completetion of program, and output will be generated in console and response.csv (e.g. Data/Client/Events/Airport/Airport1/response.csv)
 
 ## Single Scenario flow
@@ -60,3 +61,8 @@ Execute following steps to perform one scenario,
    1. Airport model => src/test/java/org/sahaj/parking/test/TestAirportModel.java
    2. Mall model => src/test/java/org/sahaj/parking/test/TestMallModel.java
    3. Stadium model => src/test/java/org/sahaj/parking/test/TestStadiumModel.java
+
+## Build
+1. run "mvn clean install" from terminal
+2. jar will be generated at target/ParkingLot-1.0-SNAPSHOT-jar-with-dependencies.jar
+3. Use this jar to run program mentioned in "How to run"

@@ -3,7 +3,7 @@ Response file = D:\preparation\assignments\2023\sahaj\ParkingLot\Data\Client\Eve
 
 Serial number : 1
 Request       : {"serialNumber":1,"requestType":"Park","object":"Motorcycle","reference":-1}
-Response      : {"message":"Have a great day !!!!","isValidTicket":true,"ticketNumber":1,"slot":{"id":1},"startTime":"2023-04-17 21:12:26 pm","parkingName":{"placeName":"Mall2"},"vehicleType":"Motorcycle"}
+Response      : {"message":"Have a great day !!!!","isValidTicket":true,"ticketNumber":1,"slot":{"id":1},"startTime":"2023-04-17 21:41:50 pm","parkingName":{"placeName":"Mall2"},"vehicleType":"Motorcycle"}
 
 Serial number : 2
 Request       : {"serialNumber":2,"requestType":"Wait","object":"210 min","reference":-1}
@@ -11,11 +11,11 @@ Response      : {"reponseString":"Increased time by 210 min"}
 
 Serial number : 3
 Request       : {"serialNumber":3,"requestType":"Unpark","object":"Motorcycle","reference":1}
-Response      : {"recieptNumber":1,"startTime":"2023-04-17 21:12:26 pm","endTime":"2023-04-18 00:42:26 am","totalHours":4,"fees":40,"parkingName":{"placeName":"Mall2"}}
+Response      : {"recieptNumber":1,"startTime":"2023-04-17 21:41:50 pm","endTime":"2023-04-18 01:11:50 am","totalHours":4,"fees":40,"parkingName":{"placeName":"Mall2"}}
 
 Serial number : 4
 Request       : {"serialNumber":4,"requestType":"Park","object":"Car","reference":-1}
-Response      : {"message":"Have a great day !!!!","isValidTicket":true,"ticketNumber":2,"slot":{"id":1},"startTime":"2023-04-18 00:42:26 am","parkingName":{"placeName":"Mall2"},"vehicleType":"Car"}
+Response      : {"message":"Have a great day !!!!","isValidTicket":true,"ticketNumber":2,"slot":{"id":1},"startTime":"2023-04-18 01:11:50 am","parkingName":{"placeName":"Mall2"},"vehicleType":"Car"}
 
 Serial number : 5
 Request       : {"serialNumber":5,"requestType":"Wait","object":"361 min","reference":-1}
@@ -23,11 +23,11 @@ Response      : {"reponseString":"Increased time by 361 min"}
 
 Serial number : 6
 Request       : {"serialNumber":6,"requestType":"Unpark","object":"Car","reference":4}
-Response      : {"recieptNumber":2,"startTime":"2023-04-18 00:42:26 am","endTime":"2023-04-18 06:43:26 am","totalHours":7,"fees":140,"parkingName":{"placeName":"Mall2"}}
+Response      : {"recieptNumber":2,"startTime":"2023-04-18 01:11:50 am","endTime":"2023-04-18 07:12:50 am","totalHours":7,"fees":140,"parkingName":{"placeName":"Mall2"}}
 
 Serial number : 7
 Request       : {"serialNumber":7,"requestType":"Park","object":"Truck","reference":-1}
-Response      : {"message":"Have a great day !!!!","isValidTicket":true,"ticketNumber":3,"slot":{"id":1},"startTime":"2023-04-18 06:43:26 am","parkingName":{"placeName":"Mall2"},"vehicleType":"Truck"}
+Response      : {"message":"Have a great day !!!!","isValidTicket":true,"ticketNumber":3,"slot":{"id":1},"startTime":"2023-04-18 07:12:50 am","parkingName":{"placeName":"Mall2"},"vehicleType":"Truck"}
 
 Serial number : 8
 Request       : {"serialNumber":8,"requestType":"Wait","object":"119 min","reference":-1}
@@ -35,5 +35,5 @@ Response      : {"reponseString":"Increased time by 119 min"}
 
 Serial number : 9
 Request       : {"serialNumber":9,"requestType":"Unpark","object":"Truck","reference":7}
-Response      : {"recieptNumber":3,"startTime":"2023-04-18 06:43:26 am","endTime":"2023-04-18 08:42:26 am","totalHours":2,"fees":100,"parkingName":{"placeName":"Mall2"}}
+Response      : {"recieptNumber":3,"startTime":"2023-04-18 07:12:50 am","endTime":"2023-04-18 09:11:50 am","totalHours":2,"fees":100,"parkingName":{"placeName":"Mall2"}}
 

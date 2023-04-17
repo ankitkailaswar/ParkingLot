@@ -3,7 +3,7 @@ Response file = D:\preparation\assignments\2023\sahaj\ParkingLot\Data\Client\Eve
 
 Serial number : 1
 Request       : {"serialNumber":1,"requestType":"Park","object":"Motorcycle","reference":-1}
-Response      : {"message":"Have a great day !!!!","isValidTicket":true,"ticketNumber":1,"slot":{"id":1},"startTime":"2023-04-17 17:23:26 pm","parkingName":{"placeName":"Mall1"},"vehicleType":"Motorcycle"}
+Response      : {"message":"Have a great day !!!!","isValidTicket":true,"ticketNumber":1,"slot":{"id":1},"startTime":"2023-04-17 17:52:50 pm","parkingName":{"placeName":"Mall1"},"vehicleType":"Motorcycle"}
 
 Serial number : 2
 Request       : {"serialNumber":2,"requestType":"Wait","object":"40 min","reference":-1}
@@ -11,7 +11,7 @@ Response      : {"reponseString":"Increased time by 40 min"}
 
 Serial number : 3
 Request       : {"serialNumber":3,"requestType":"Park","object":"Scooter","reference":-1}
-Response      : {"message":"Have a great day !!!!","isValidTicket":true,"ticketNumber":2,"slot":{"id":2},"startTime":"2023-04-17 18:03:26 pm","parkingName":{"placeName":"Mall1"},"vehicleType":"Scooter"}
+Response      : {"message":"Have a great day !!!!","isValidTicket":true,"ticketNumber":2,"slot":{"id":2},"startTime":"2023-04-17 18:32:50 pm","parkingName":{"placeName":"Mall1"},"vehicleType":"Scooter"}
 
 Serial number : 4
 Request       : {"serialNumber":4,"requestType":"Wait","object":"40 min","reference":-1}
@@ -27,7 +27,7 @@ Response      : {"reponseString":"Increased time by 26 min"}
 
 Serial number : 7
 Request       : {"serialNumber":7,"requestType":"Unpark","object":"Scooter","reference":3}
-Response      : {"recieptNumber":2,"startTime":"2023-04-17 18:03:26 pm","endTime":"2023-04-17 19:09:26 pm","totalHours":2,"fees":20,"parkingName":{"placeName":"Mall1"}}
+Response      : {"recieptNumber":2,"startTime":"2023-04-17 18:32:50 pm","endTime":"2023-04-17 19:38:50 pm","totalHours":2,"fees":20,"parkingName":{"placeName":"Mall1"}}
 
 Serial number : 8
 Request       : {"serialNumber":8,"requestType":"Wait","object":"19 min","reference":-1}
@@ -35,7 +35,7 @@ Response      : {"reponseString":"Increased time by 19 min"}
 
 Serial number : 9
 Request       : {"serialNumber":9,"requestType":"Park","object":"Motorcycle","reference":-1}
-Response      : {"message":"Have a great day !!!!","isValidTicket":true,"ticketNumber":3,"slot":{"id":2},"startTime":"2023-04-17 19:28:26 pm","parkingName":{"placeName":"Mall1"},"vehicleType":"Motorcycle"}
+Response      : {"message":"Have a great day !!!!","isValidTicket":true,"ticketNumber":3,"slot":{"id":2},"startTime":"2023-04-17 19:57:50 pm","parkingName":{"placeName":"Mall1"},"vehicleType":"Motorcycle"}
 
 Serial number : 10
 Request       : {"serialNumber":10,"requestType":"Wait","object":"104 min","reference":-1}
@@ -43,5 +43,5 @@ Response      : {"reponseString":"Increased time by 104 min"}
 
 Serial number : 11
 Request       : {"serialNumber":11,"requestType":"Unpark","object":"Motorcycle","reference":1}
-Response      : {"recieptNumber":1,"startTime":"2023-04-17 17:23:26 pm","endTime":"2023-04-17 21:12:26 pm","totalHours":4,"fees":40,"parkingName":{"placeName":"Mall1"}}
+Response      : {"recieptNumber":1,"startTime":"2023-04-17 17:52:50 pm","endTime":"2023-04-17 21:41:50 pm","totalHours":4,"fees":40,"parkingName":{"placeName":"Mall1"}}
 
